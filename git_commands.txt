@@ -1,0 +1,31 @@
+   22  git init
+   23  ls
+   24  ls -a
+   25  git status
+   26  git add test.py
+   27  git status
+   28  git rm --cached test.py
+   29  git status
+   30  git add .
+   31  git commit -m "added test.py"
+   32  git status
+   33  git rm test.py
+   34  ls
+   35  git status
+   36  git restore test.py
+   37  git restore --staged test.py
+   38  ls
+   39  ls -a
+   40  git status
+   41  git restore test.py
+   42  ls
+   43  git status
+   44  git rm test.py
+   45  git status
+   46  ls
+   47  git restore --staged test.py
+   48  ls
+   49  git restore test.py
+   50  ls
+   51  cat test.py
+   52  histor
