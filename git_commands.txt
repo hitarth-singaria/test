@@ -29,3 +29,11 @@
    50  ls
    51  cat test.py
    52  histor
+
+
+ 6  git remote add origin https://github.com/hitarth-singaria/test.git //needs password
+    7  git remote -v
+    8  git push origin master
+    9  git remote set-url origin https://<personal_access_token>@github.com/hitarth-singaria/test.git/ //no need of password
+   10  git remote -v
+   11  git push origin master
